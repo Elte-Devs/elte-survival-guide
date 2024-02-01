@@ -1,0 +1,39 @@
+---
+import type { Props } from '@astrojs/starlight/props'
+import MobileMenuFooter from '@astrojs/starlight/components/MobileMenuFooter.astro'
+import SidebarSublist from '@astrojs/starlight/components/SidebarSublist.astro'
+
+const { sidebar } = Astro.props
+---
+
+<SidebarSublist sublist={sidebar} />
+<div class="md:sl-hidden">
+  <MobileMenuFooter {...Astro.props} />
+</div>
+
+<script>
+  document.addEventListener('astro:page-load', () => {
+    const sidebar = document.querySelector('#starlight__sidebar')
+    if (!sidebar) return
+    const details = sidebar.querySelectorAll('details')
+    const { top, collapse } = JSON.parse(sessionStorage.getItem('starlight_sidebar') ?? '{}')
+
+    if (top !== undefined) {
+      details.forEach((el, i) => (el.open = collapse[i]))
+      sidebar.scrollTop = top
+    }
+
+    document.addEventListener('astro:before-swap', () => {
+      const collapse = []
+      for (const el of details) collapse.push(el.open)
+
+      sessionStorage.setItem(
+        'starlight_sidebar',
+        JSON.stringify({
+          top: sidebar.scrollTop,
+          collapse,
+        }),
+      )
+    })
+  })
+</script>

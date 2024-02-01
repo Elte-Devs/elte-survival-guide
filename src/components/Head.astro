@@ -1,0 +1,14 @@
+---
+import type { Props } from '@astrojs/starlight/props'
+import Default from '@astrojs/starlight/components/Head.astro'
+import { ViewTransitions } from 'astro:transitions'
+---
+
+<ViewTransitions />
+<Default {...Astro.props}><slot /></Default>
+
+<script>
+  if (typeof window !== 'undefined') {
+    window.localStorage.setItem('starlight-theme', 'dark')
+  }
+</script>

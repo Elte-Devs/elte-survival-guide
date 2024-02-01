@@ -1,0 +1,121 @@
+starlight-theme-select {
+  display: none;
+}
+
+body {
+  background:
+    url('/src/assets/bg.png'),
+    linear-gradient(to top left,
+      hsl(18, 24%, 9%) 0%,
+      hsl(18, 24%, 9%) 50%,
+      hsl(18, 19%, 16%) 100%);
+  background-position: center;
+}
+
+.header {
+  background: transparent;
+  backdrop-filter: blur(20px);
+  border-color: transparent;
+}
+
+#starlight__sidebar {
+  background: linear-gradient(to top left,
+      hsla(18, 24%, 9%) 0%,
+      hsla(18, 24%, 9%) 50%,
+      hsla(18, 19%, 16%) 100%);
+}
+
+@media (min-width: 50em) {
+  #starlight__sidebar {
+    background: linear-gradient(to top,
+      hsla(18, 24%, 9%, 0.3) 0%,
+      hsla(18, 24%, 9%, 0.3) 95%,
+      hsla(18, 19%, 16%, 0.3) 100%);
+  }
+}
+
+.action {
+  font-weight: bold;
+}
+
+:root,
+::backdrop {
+  --sl-font: 'Inter', sans-serif;
+
+  /* Colors (dark mode) */
+  --sl-color-white: hsl(24, 50%, 90%);
+  --sl-color-gray-1: hsl(24, 20%, 94%);
+  --sl-color-gray-2: hsl(24, 23%, 80%);
+  --sl-color-gray-3: hsl(24, 6%, 56%);
+  --sl-color-gray-4: hsl(24, 7%, 36%);
+  --sl-color-gray-5: hsl(24, 20%, 23%);
+  --sl-color-gray-6: hsl(24, 24%, 9%);
+  --sl-color-black: hsl(24, 10%, 10%);
+
+  --sl-color-accent-low: hsl(24, 54%, 20%);
+  --sl-color-accent: hsl(24, 100%, 60%);
+  --sl-color-accent-high: hsl(24, 100%, 85%);
+
+  --sl-color-text: var(--sl-color-gray-2);
+  --sl-color-text-accent: var(--sl-color-accent-high);
+  --sl-color-text-invert: var(--sl-color-accent-low);
+  --sl-color-bg: var(--sl-color-black);
+  --sl-color-bg-nav: var(--sl-color-gray-6);
+  --sl-color-bg-sidebar: transparent;
+  --sl-color-bg-inline-code: var(--sl-color-gray-5);
+  --sl-color-bg-accent: var(--sl-color-accent-high);
+  --sl-color-hairline-light: var(--sl-color-gray-5);
+  --sl-color-hairline: var(--sl-color-gray-6);
+  --sl-color-hairline-shade: var(--sl-color-black);
+}
+
+:root[data-theme='light'],
+[data-theme='light'] ::backdrop {
+  --sl-color-white: hsl(24, 50%, 90%);
+  --sl-color-gray-1: hsl(24, 20%, 94%);
+  --sl-color-gray-2: hsl(24, 23%, 80%);
+  --sl-color-gray-3: hsl(24, 6%, 56%);
+  --sl-color-gray-4: hsl(24, 7%, 36%);
+  --sl-color-gray-5: hsl(24, 20%, 23%);
+  --sl-color-gray-6: hsl(24, 24%, 9%);
+  --sl-color-black: hsl(24, 10%, 10%);
+
+  --sl-color-accent-low: hsl(24, 54%, 20%);
+  --sl-color-accent: hsl(24, 100%, 85%);
+  --sl-color-accent-high: hsl(24, 100%, 85%);
+
+  --sl-color-backdrop-overlay: var(--sl-color-gray-6);
+  --sl-color-bg-nav: var(--sl-color-gray-6);
+  --sl-color-text: var(--sl-color-gray-2);
+  --sl-color-text-accent: var(--sl-color-accent-high);
+  --sl-color-text-invert: var(--sl-color-accent-low);
+  --sl-color-bg: var(--sl-color-black);
+  --sl-color-bg-nav: var(--sl-color-gray-6);
+  --sl-color-bg-sidebar: transparent;
+  --sl-color-bg-inline-code: var(--sl-color-gray-5);
+  --sl-color-bg-accent: var(--sl-color-accent-high);
+  --sl-color-hairline-light: var(--sl-color-gray-5);
+  --sl-color-hairline: var(--sl-color-gray-6);
+  --sl-color-hairline-shade: var(--sl-color-black);
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--sl-color-accent-high);
+  border-radius: 20px;
+  border: 3px solid var(--sl-color-gray-6);
+}
+
+::-webkit-scrollbar-track {
+  background: var(--sl-color-gray-6);
+}
+
+/* For Firefox */
+* {
+  scrollbar-width: thin;
+  /* scroll thumb and track */
+  scrollbar-color: var(--sl-color-accent-high) var(--sl-color-gray-6);
+}
