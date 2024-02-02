@@ -1,54 +1,48 @@
-# Starlight Starter Kit: Basics
+# ELTE IK Survival Guide
 
-[![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
+> [!WARNING]
+> work in progress
 
-```
-npm create astro@latest -- --template starlight
-```
+hi
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/starlight/tree/main/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/starlight/tree/main/examples/basics)
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fwithastro%2Fstarlight%2Ftree%2Fmain%2Fexamples%2Fbasics&project-name=my-starlight-docs&repository-name=my-starlight-docs)
+## Contribute
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+### Development
 
-## 🚀 Project Structure
+Install `pnpm` and `@antfu/ni`:
 
-Inside of your Astro + Starlight project, you'll see the following folders and files:
-
-```
-.
-├── public/
-├── src/
-│   ├── assets/
-│   ├── content/
-│   │   ├── docs/
-│   │   └── config.ts
-│   └── env.d.ts
-├── astro.config.mjs
-├── package.json
-└── tsconfig.json
+```bash
+npm i -g pnpm @antfu/ni
 ```
 
-Starlight looks for `.md` or `.mdx` files in the `src/content/docs/` directory. Each file is exposed as a route based on its file name.
+Install dependencies:
 
-Images can be added to `src/assets/` and embedded in Markdown with a relative link.
+```bash
+ni
+```
 
-Static assets, like favicons, can be placed in the `public/` directory.
+Start the development server:
 
-## 🧞 Commands
+```bash
+nr dev
+```
 
-All commands are run from the root of the project, from a terminal:
+### Important places
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+- `astro.config.mjs`: Site related config
+- `content/docs/*`: file-based routing: each file and folder here will be a page
+- `*.md`: Markdown files are rendered as pages
+- `*.mdx`: MDX files can be used to import Components and more
 
-## 👀 Want to learn more?
+### Workflow
 
-Check out [Starlight’s docs](https://starlight.astro.build/), read [the Astro documentation](https://docs.astro.build), or jump into the [Astro Discord server](https://astro.build/chat).
+You can't push directly to the `main` branch. You will need pull requests.
+
+- Create an issue or a new branch
+  - issues enable discussion, after creating an issue you can link a branch and a pull request to it
+  - simply creating a new branch with the name of your feature is also fine
+- Make your changes
+- Create a pull request
+  - if you linked your branch to an issue, the pull request will be linked to the issue
+  - if you didn't, it's still fine as you are creating the pr from that branch
+- Code owners will merge it
