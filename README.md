@@ -9,19 +9,19 @@ hi
 
 ### Development
 
-Install `pnpm` and `@antfu/ni`:
+You will need `pnpm` and `@antfu/ni` installed globally:
 
 ```bash
 npm i -g pnpm @antfu/ni
 ```
 
-Install dependencies:
+Install deps:
 
 ```bash
 ni
 ```
 
-Start the development server:
+Start the dev server:
 
 ```bash
 nr dev
@@ -36,7 +36,7 @@ nr dev
 
 ### Workflow
 
-You can't push directly to the `main` branch. You will need pull requests.
+You can't push directly to the `main` branch (no one can). You will need pull requests.
 
 - Create an issue or a new branch
   - issues enable discussion, after creating an issue you can link a branch and a pull request to it
