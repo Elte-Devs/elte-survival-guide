@@ -3,6 +3,7 @@ import starlight from '@astrojs/starlight'
 
 export default defineConfig({
   site: 'https://elte-devs.github.io',
+  base: '/elte-survival-guide',
   prefetch: {
     defaultStrategy: 'tap',
   },
@@ -16,7 +17,7 @@ export default defineConfig({
         './src/styles/custom.css',
       ],
       social: {
-        github: 'https://github.com/Rettend/elte-survival-guide',
+        github: 'https://github.com/elte-devs/elte-survival-guide',
       },
       sidebar: [
         {
