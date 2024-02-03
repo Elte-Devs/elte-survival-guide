@@ -10,14 +10,19 @@ const { src, width } = Astro.props
 ---
 
 <div>
-  <Image src={src} width={width} alt={src.src.split('/').pop()?.split('.').shift()} />
+  <Image
+    style={'margin-top: 34px;'}
+    class="img"
+    src={src}
+    width={width}
+    alt={src.src.split('/').pop()?.split('.').shift()}
+  />
 </div>
 
 <style>
   div {
     display: flex;
     justify-content: center;
-    margin-top: 50px;
     margin-bottom: 50px;
   }
 </style>
