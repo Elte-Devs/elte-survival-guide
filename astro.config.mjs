@@ -14,6 +14,7 @@ export default defineConfig({
     customCss: ['@fontsource/inter/400.css', '@fontsource/inter/600.css', './src/styles/custom.css'],
     social: {
       github: 'https://github.com/elte-devs/elte-survival-guide',
+      discord: 'https://discord.gg/phaMmupWPD',
     },
     sidebar: [{
       label: 'Home',

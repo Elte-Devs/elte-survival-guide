@@ -1,9 +1,9 @@
 ---
-title: 'Programozási Nyelvek: Java'
+title: Webfejlesztés
 sidebar:
   badge:
     text: WIP
     variant: caution
 ---
 
-- kotlin
+- live server

@@ -6,4 +6,7 @@ sidebar:
     variant: caution
 ---
 
-- todo: anki erre is
+- why HSUP is 🤡
+- YC Startup lectures
+- Paul Graham essays
+- Martin Shkreli finance lectures

@@ -1,5 +1,5 @@
 ---
-title: Programozási Technológia
+title: Algoritmusok és Adatszerkezetek II
 sidebar:
   badge:
     text: Empty

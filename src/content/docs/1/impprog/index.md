@@ -6,6 +6,7 @@ sidebar:
     variant: caution
 ---
 
+- clang
+- books, llvm history
 - valgrind and wsl tutorial
-- books
 - llama2.c

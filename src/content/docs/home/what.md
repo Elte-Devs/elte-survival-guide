@@ -1,10 +1,10 @@
 ---
 title: What is Programming?
 sidebar:
-  order: 1
+  order: 2
   badge:
     text: WIP
     variant: caution
 ---
 
-Programming is translating business ideas into React code.
+<https://youtu.be/N2bXEUSAiTI?si=EnJzUqZ5JqpMBNRK>
