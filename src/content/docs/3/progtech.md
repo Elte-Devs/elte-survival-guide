@@ -1,6 +1,5 @@
 ---
 title: Programozási Technológia
-description: túl sok a techelés
 ---
 
 Reference pages are ideal for outlining how things work in terse and clear terms.

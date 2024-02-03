@@ -1,6 +1,5 @@
 ---
 title: Mesterséges Intelligencia
-description: attention is all you need
 ---
 
 Reference pages are ideal for outlining how things work in terse and clear terms.

@@ -1,6 +1,9 @@
 ---
 title: Vállalkozás menedzsment
-description: ne
+sidebar:
+  badge:
+    text: WIP
+    variant: caution
 ---
 
 - todo: anki erre is

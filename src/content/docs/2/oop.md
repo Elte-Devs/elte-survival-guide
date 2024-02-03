@@ -1,9 +1,7 @@
 ---
-title: Egyetemi alapozó, tanulásmódszertan
+title: Objektumorientált Programozás
 sidebar:
   badge:
     text: WIP
     variant: caution
 ---
-
-ovi

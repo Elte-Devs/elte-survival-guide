@@ -1,6 +1,5 @@
 ---
 title: Számításelmélet alapjai I
-description: php tejézus
 ---
 
 Reference pages are ideal for outlining how things work in terse and clear terms.

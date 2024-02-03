@@ -1,6 +1,5 @@
 ---
 title: Adatbázisok I
-description: db
 ---
 
 Reference pages are ideal for outlining how things work in terse and clear terms.
