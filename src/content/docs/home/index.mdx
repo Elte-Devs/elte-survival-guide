@@ -8,6 +8,15 @@ import Badge from '@astrojs/starlight/components/Badge.astro'
 import Img from '../../../components/Img.astro'
 import ImgGptMeme from '../../../assets/gpt_meme.jpg'
 import ImgMagic from '../../../assets/magic.png'
+import { LinkCard } from '@astrojs/starlight/components';
+
+Who cares? Here is a button to go next.
+
+<LinkCard
+  title="Next"
+  description="What is Programming?"
+  href="/home/what"
+/>
 
 ## Disclaimer
 
@@ -32,7 +41,8 @@ But then you realize, we have something like that. It's programming.
 <Img src={ImgMagic} width={700} />
 
 Full komolyan. 
-GPT 300 sor kód összesen. Ha valaki tudná pontosan mit kellene gépeljen, 1000 sorban AGI-t tudna írni.
+GPT [300 sor Python](https://github.com/karpathy/nanoGPT) összesen, vagy [700 sor C](https://github.com/karpathy/llama2.c/blob/master/run.c).
+Ha valaki tudná pontosan mit kellene gépeljen, 1000 sorban AGI-t tudna írni.
 Az embereknek nem kell 800GB szövegen tanulniuk, hogy értelmes mondatokat kezdjenek el írni, GPT-nek miért kell? 
 
 Ez az oldal azoknak készült akik nyerni akarnak: 
