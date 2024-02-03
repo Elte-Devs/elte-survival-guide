@@ -1,6 +1,5 @@
 ---
 title: Eseményvezérelt Alkalmazások
-description: A és B, C nem
 ---
 
 Reference pages are ideal for outlining how things work in terse and clear terms.

@@ -1,9 +1,10 @@
 ---
-title: Egyetemi alapozó, tanulásmódszertan
+title: Rust
+subtitle: Imperatív Programozás
 sidebar:
   badge:
     text: WIP
     variant: caution
 ---
 
-ovi
+rust!

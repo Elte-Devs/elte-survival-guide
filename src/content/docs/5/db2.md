@@ -1,6 +1,5 @@
 ---
 title: Adatbázisok II
-description: db2
 ---
 
 Reference pages are ideal for outlining how things work in terse and clear terms.

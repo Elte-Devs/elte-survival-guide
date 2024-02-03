@@ -1,6 +1,9 @@
 ---
 title: Az összes matek
-description: tl;dr túl sok van
+sidebar:
+  badge:
+    text: WIP
+    variant: caution
 ---
 
 🔢

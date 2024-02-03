@@ -1,6 +1,5 @@
 import { defineConfig } from 'astro/config'
 import starlight from '@astrojs/starlight'
-import solidJs from '@astrojs/solid-js'
 
 // https://astro.build/config
 export default defineConfig({
@@ -18,13 +17,9 @@ export default defineConfig({
     },
     sidebar: [{
       label: 'Home',
-      items: [{
-        label: 'What is Programming?',
-        link: '/home/what',
-      }, {
-        label: 'Tools & Tech',
-        link: '/home/tools',
-      }],
+      autogenerate: {
+        directory: 'home',
+      },
     }, {
       label: '1.',
       autogenerate: {
@@ -53,7 +48,8 @@ export default defineConfig({
     }],
     components: {
       Head: './src/components/Head.astro',
+      PageTitle: './src/components/PageTitle.astro',
       Sidebar: './src/components/Sidebar.astro',
     },
-  }), solidJs()],
+  })],
 })

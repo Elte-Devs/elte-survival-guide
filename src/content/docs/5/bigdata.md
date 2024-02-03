@@ -1,6 +1,5 @@
 ---
 title: Big Data Architektúrák
-description: very big data
 ---
 
 Reference pages are ideal for outlining how things work in terse and clear terms.

@@ -1,6 +1,5 @@
 ---
 title: Valószínűségszámítás és statisztika
-description: valszamstat
 ---
 
 Reference pages are ideal for outlining how things work in terse and clear terms.

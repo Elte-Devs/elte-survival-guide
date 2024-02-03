@@ -1,6 +1,9 @@
 ---
 title: Funkcionális Programozás
-description: Hasnemkell
+sidebar:
+  badge:
+    text: WIP
+    variant: caution
 ---
 
 - test template

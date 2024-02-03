@@ -1,6 +1,5 @@
 ---
 title: Konkurrens Programozás
-description: i am become flops, destroyer of single threaded
 ---
 
 Reference pages are ideal for outlining how things work in terse and clear terms.

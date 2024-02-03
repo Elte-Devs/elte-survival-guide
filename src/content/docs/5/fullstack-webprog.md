@@ -1,6 +1,5 @@
 ---
 title: Full Stack Webprogramozás
-description: meta
 ---
 
 Reference pages are ideal for outlining how things work in terse and clear terms.

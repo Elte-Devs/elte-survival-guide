@@ -1,6 +1,9 @@
 ---
 title: 'Programozási Nyelvek: Java'
-description: ja
+sidebar:
+  badge:
+    text: WIP
+    variant: caution
 ---
 
 - kotlin

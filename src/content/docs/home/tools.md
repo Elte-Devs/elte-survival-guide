@@ -1,8 +1,10 @@
 ---
 title: Tools & Tech
-description: programming ~ magic
+sidebar:
+  order: 2
+  badge:
+    text: WIP
+    variant: caution
 ---
-
-ᓚᘏᗢ
 
 DM me for books I will buy them for you (im serious)

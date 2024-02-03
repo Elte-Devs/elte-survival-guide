@@ -1,6 +1,9 @@
 ---
 title: Szmító Rendszerek
-description: Igazi gazdái leszünk a rendszereknek
+sidebar:
+  badge:
+    text: WIP
+    variant: caution
 ---
 
 - powershell vscode extension

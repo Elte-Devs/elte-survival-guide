@@ -1,6 +1,5 @@
 ---
 title: Számítógépes Grafika
-description: anime girls holding programming books
 ---
 
 Reference pages are ideal for outlining how things work in terse and clear terms.

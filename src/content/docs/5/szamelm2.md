@@ -1,6 +1,5 @@
 ---
 title: Számításelmélet alapjai II
-description: a
 ---
 
 Reference pages are ideal for outlining how things work in terse and clear terms.
