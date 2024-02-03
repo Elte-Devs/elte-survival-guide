@@ -11,4 +11,4 @@ sidebar:
 - very advanced types
 - <https://github.com/type-challenges/type-challenges>
 - extend, infer, keyof, in, index signatures, string literals
-- connecting low-level and typescript: <https://youtu.be/ER7h4ZTe19A?si=CXyuvOV-r4tk2DuQ>
+- connecting low-level and typescript: <https://youtu.be/ER7h4ZTe19A>
