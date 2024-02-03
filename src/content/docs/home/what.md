@@ -7,4 +7,4 @@ sidebar:
     variant: caution
 ---
 
-<https://youtu.be/N2bXEUSAiTI?si=EnJzUqZ5JqpMBNRK>
+<https://youtu.be/N2bXEUSAiTI>
