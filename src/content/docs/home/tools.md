@@ -1,7 +1,7 @@
 ---
 title: Tools & Tech
 sidebar:
-  order: 2
+  order: 3
   badge:
     text: WIP
     variant: caution

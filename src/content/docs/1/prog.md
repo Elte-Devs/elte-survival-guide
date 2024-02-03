@@ -2,8 +2,8 @@
 title: Programozás
 sidebar:
   badge:
-    text: WIP
-    variant: caution
+    text: Empty
+    variant: default
 ---
 
 not sure

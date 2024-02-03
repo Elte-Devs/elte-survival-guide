@@ -2,8 +2,8 @@
 title: Egyetemi alapozó, tanulásmódszertan
 sidebar:
   badge:
-    text: WIP
-    variant: caution
+    text: Empty
+    variant: default
 ---
 
 ovi

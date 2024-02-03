@@ -1,5 +1,5 @@
 ---
-title: Programozási Technológia
+title: Típuselmélet
 sidebar:
   badge:
     text: Empty

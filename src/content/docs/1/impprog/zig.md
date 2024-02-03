@@ -7,4 +7,7 @@ sidebar:
     variant: caution
 ---
 
-zig!
+- source: <https://ziglang.org/learn/overview/>
+- Zig syntax
+- Memory management
+- Zig is also a C compiler

@@ -1,9 +1,9 @@
 ---
-title: Webfejlesztés
+title: 'Programozási Nyelvek: Java'
 sidebar:
   badge:
     text: WIP
     variant: caution
 ---
 
-- astro, unocss
+- vscode

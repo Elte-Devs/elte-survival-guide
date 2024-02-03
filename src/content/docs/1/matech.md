@@ -2,8 +2,8 @@
 title: Az összes matek
 sidebar:
   badge:
-    text: WIP
-    variant: caution
+    text: Empty
+    variant: default
 ---
 
-🔢
+- 3b1b, khan academy
