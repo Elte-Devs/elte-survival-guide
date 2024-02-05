@@ -3,7 +3,7 @@ title: TypeScript II
 subtitle: Típuselmélet
 sidebar:
   badge:
-    text: WIP
+    text: Notes
     variant: caution
 ---
 

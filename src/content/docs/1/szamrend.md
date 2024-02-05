@@ -2,7 +2,7 @@
 title: Szmító Rendszerek
 sidebar:
   badge:
-    text: WIP
+    text: Notes
     variant: caution
 ---
 

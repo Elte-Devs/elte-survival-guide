@@ -2,7 +2,7 @@
 title: Algoritmusok és Adatszerkezetek I
 sidebar:
   badge:
-    text: WIP
+    text: Notes
     variant: caution
 ---
 
