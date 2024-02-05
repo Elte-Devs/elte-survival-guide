@@ -3,7 +3,7 @@ title: Astro + UnoCSS
 subtitle: Webfejlesztés
 sidebar:
   badge:
-    text: WIP
+    text: Notes
     variant: caution
 ---
 

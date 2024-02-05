@@ -3,7 +3,7 @@ title: LLVM, MLIR
 subtitle: Algoritmusok és Adatszerkezetek II
 sidebar:
   badge:
-    text: WIP
+    text: Notes
     variant: caution
 ---
 

@@ -2,7 +2,7 @@
 title: Kliensoldali Webprogramozás
 sidebar:
   badge:
-    text: WIP
+    text: Notes
     variant: caution
 ---
 

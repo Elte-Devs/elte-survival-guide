@@ -5,13 +5,22 @@ sidebar:
 ---
 
 import Badge from '@astrojs/starlight/components/Badge.astro'
+import Img from '../../../components/Img.astro'
+import ImgGptMeme from '../../../assets/gpt_meme.jpg'
 
-<Badge text="Empty" variant="default" /> - üres
+<Img src={ImgGptMeme} width={400} />
 
-<Badge text="WIP" variant="caution" /> - még nem befejezett, de jegyzeteket már tartalmaz
+Ha 12+ év tanulás után még mindig úgy hiszed, hogy bármilyen oktatási rendszer fog téged
+ellátni tudással, ez az oldal nem neked való.
 
-<Badge text="Source" variant="tip" /> - linkek külső guide-okhoz, nem saját (tehát high quality)
+## Badge magyarázat
 
-<Badge text="Done" variant="success" /> - jól kidolgozott
+<Badge text="Empty" variant="default" /> - üres, nincs ötlet ehhez
+
+<Badge text="Notes" variant="caution" /> - még nem befejezett, de jegyzeteket már tartalmaz
+
+<Badge text="WIP" variant="tip" /> - guide elkezdve, de nem befejezett
+
+<Badge text="Done" variant="success" /> - jól kidolgozott, kevés változás várható
 
 Ezek a badge-ek csak addig kellenek, amíg nincs kész egy félév teljesen.

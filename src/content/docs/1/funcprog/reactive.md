@@ -3,7 +3,7 @@ title: Reaktív Programozás
 subtitle: Funkcionális Programozás
 sidebar:
   badge:
-    text: WIP
+    text: Notes
     variant: caution
 ---
 

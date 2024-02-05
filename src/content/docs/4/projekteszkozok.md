@@ -2,7 +2,7 @@
 title: Projekteszközök
 sidebar:
   badge:
-    text: WIP
+    text: Notes
     variant: caution
 ---
 

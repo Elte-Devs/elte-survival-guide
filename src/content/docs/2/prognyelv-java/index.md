@@ -2,7 +2,7 @@
 title: 'Programozási Nyelvek: Java'
 sidebar:
   badge:
-    text: WIP
+    text: Notes
     variant: caution
 ---
 

@@ -3,7 +3,7 @@ title: Zig
 subtitle: Imperatív Programozás
 sidebar:
   badge:
-    text: WIP
+    text: Notes
     variant: caution
 ---
 
