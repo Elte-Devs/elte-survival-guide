@@ -15,4 +15,4 @@ sidebar:
 - we will use: Svelte 5, Solid
 - observer pattern: signals
 - state, derived, effect
-- learning to lose reactivity to not cause infinite loops (note: these are actually caught by the compiler, unlike other languages I could mention *cough* haskell)
+- learning to lose reactivity to not cause infinite loops (note: these are actually caught by the compiler, unlike with other languages I could mention *cough* haskell)
