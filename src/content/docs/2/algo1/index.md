@@ -6,4 +6,6 @@ sidebar:
     variant: caution
 ---
 
+Programozásnak álcázott matek.
+
 <https://en.wikipedia.org/wiki/Sorting_algorithm#Comparison_sorts>

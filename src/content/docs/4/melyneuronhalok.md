@@ -6,4 +6,5 @@ sidebar:
     variant: caution
 ---
 
-tinygrad
+- tinygrad
+- karpathy repo-i

@@ -7,3 +7,4 @@ sidebar:
 ---
 
 - webcomponents? time to rewrite Lit
+- svelte 5, sveltekit / solid, solidstart
