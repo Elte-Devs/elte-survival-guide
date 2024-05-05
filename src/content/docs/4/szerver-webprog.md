@@ -6,4 +6,6 @@ sidebar:
     variant: caution
 ---
 
-go
+- ElysiaJS
+- continue sveltekit but focus on backend?
+- maybe Go

@@ -2,6 +2,9 @@
 title: GPU programozás
 sidebar:
   badge:
-    text: Empty
-    variant: default
+    text: Notes
+    variant: caution
 ---
+
+- GLSL, HLSL, SPIR-V
+- webgpu, WGSL
